@@ -1,0 +1,98 @@
+html{
+    background: #fff;
+}
+
+.container_nav, .container_footer{
+    display: flex;
+    justify-content: center;
+}
+
+.container_nav div, .container_footer div{
+    display: contents;
+}
+
+.container_nav__img, .container_footer__img{
+    margin: 20px;
+    width: 20%;
+    display: flex;
+}
+
+.img_banner{
+    width: 100%;
+}
+
+.container_banner__titulo{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Solitreo', cursive;
+    text-decoration: underline;
+}
+
+.container_banner__epigrafe, .container_banner__titulo_nombre{
+    font-size: 50px;
+    font-family: 'Solitreo', cursive;
+    text-align: center;
+}
+
+.container_menu{
+    margin-top: 20px;
+}
+
+.container_menu__tituloPrincipal_titulo{
+    font-size: 50px;
+    font-family: 'Solitreo', cursive;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+
+.container_menu__tituloPrincipal__item{
+    padding: 30px 0 15px;
+    border-bottom: 1px solid;
+}
+
+.container_menu__tituloPrincipal__item_nombre, .container_menu__tituloPrincipal__item_precio, .container_menu__tituloPrincipal__item_detalle{
+    font-family: 'Solitreo', cursive;
+}
+
+.container_menu__tituloPrincipal__item_precio{
+    color: brown;
+}
+
+.container_menu__tituloPrincipal__item_detalle{
+    padding-left: 10px;
+    color: grey;
+}
+
+.container_menu__tituloPrincipal_subTitulo{
+    padding: 10px;
+    color: grey;
+    font-family: 'Solitreo', cursive;
+    text-align: center;
+}
+
+.container_menu__tituloPrincipal__item_footer{
+    padding: 30px 0 15px;
+}
+
+.container_footer{
+    padding: 30px 0;
+    background-color: grey;
+}
+
+.container_footer__home_enlace{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Solitreo', cursive;
+    text-decoration: none;
+    transition: 250ms;
+}
+
+.container_footer_creacion__disenho{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container_footer__home :hover{
+    text-decoration: underline;
+}
